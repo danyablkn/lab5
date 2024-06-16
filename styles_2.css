@@ -1,0 +1,117 @@
+body {
+  background: url('images/image_1.png') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 16px;
+  color: white; /* Добавим белый цвет текста */
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+}
+
+.logo img {
+  height: 3.125rem; /* 50px */
+}
+
+.navbar {
+  display: flex;
+  align-items: center; /* Выравнивание по вертикали */
+  justify-content: center; /* Центрирование по горизонтали */
+  gap: 0.1%; /* Промежутки между элементами */
+  width: 100%; /* Ширина на 100% */
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5 rem; /* 16px */
+  margin: 0 1%; /* Отступы */
+  white-space: nowrap; /* Запрет переноса текста на новую строку */
+}
+
+
+.content {
+padding: 5%;
+text-align: center;
+color: white;
+}
+
+.title {
+font-size: 2.5rem; /* 40px */
+margin: 2% 0;
+}
+
+.subtitle {
+font-size: 1.7rem; /* 32px */
+margin: 2% 0;
+}
+
+.offers {
+background-color: rgba(0, 0, 0, 0.7); /* Added background for better readability */
+padding: 7%;
+border-radius: 15px;
+display: inline-block;
+}
+
+.offer-list {
+padding: 0;
+font-size: 1.5rem; /* Increased font size to 24px */
+margin: 0;
+}
+
+.offer-list li {
+margin: 1% 0;
+}
+
+
+.club-description {
+  font-size: 1.2rem; /* 20px */
+  margin: 5% 0;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 6%;
+  border-radius: 5px;
+  line-height: 1.6;
+
+}
+
+
+.footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 1%;
+position: fixed;
+width: 100%;
+bottom: 0;
+}
+
+@media (min-width: 576px) {
+.navbar a {
+font-size: 1.5rem; /* Increased font size for larger screens */
+}
+
+.title {
+font-size: 3.125rem; /* 50px */
+}
+
+.subtitle {
+font-size: 2.5rem; /* 40px */
+}
+
+.offer-list {
+font-size: 2rem; /* 32px */
+}
+
+.club-description {
+font-size: 1.25rem; /* 20px */
+}
+}

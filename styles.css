@@ -1,0 +1,94 @@
+body {
+    background: url('images/image_1.png') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 16px; /* Используем относительный размер шрифта */
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%; /* Используем относительный отступ */
+}
+
+.logo img {
+    height: 3.125rem; /* 50px, но можно использовать относительные единицы */
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5 rem; /* 16px */
+  margin: 0 1%; /* Отступы */
+  white-space: nowrap; /* Запрет переноса текста на новую строку */
+}
+
+.content {
+    padding: 5%; /* Относительный отступ */
+    text-align: center;
+    color: white;
+}
+
+.hero {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2%; /* Относительный отступ */
+    border-radius: 10px;
+    margin: 2% 0;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 1.5rem; /* Относительный размер шрифта */
+}
+
+.cta {
+    margin-top: 2%; /* Относительный отступ */
+}
+
+.cta span {
+    font-size: 1.125rem; /* Относительный размер шрифта */
+    color: red;
+}
+
+.divider {
+    height: 0.125rem; /* Относительная высота */
+    background-color: red;
+    margin: 1% 0; /* Относительный отступ */
+}
+
+.cta-button {
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+    padding: 1% 2%; /* Относительные отступы */
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1%; /* Относительный отступ */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
